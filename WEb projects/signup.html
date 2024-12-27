@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: blueviolet; font-family: 'Times New Roman', Times, serif;">Sign Up Here!</h1>
+        <form action="login.html" method="get" id="signup">
+            <div class="input-group">
+                <label for="username" style="color: blueviolet; font-size: larger; font-family: 'Times New Roman', Times, serif;">Please Enter your Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="email" style="color: blueviolet; font-size: larger; font-family: 'Times New Roman', Times, serif;">Please Enter your Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password" style="color: blueviolet; font-size: larger; font-family: 'Times New Roman', Times, serif;">Please Enter your Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirm-password" style="color: blueviolet; font-size: larger; font-family: 'Times New Roman', Times, serif;">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button type="submit" >Sign Up</button>
+        </form>
+        <p class="login-link" style="color: red;">Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+</body>
+</html>
